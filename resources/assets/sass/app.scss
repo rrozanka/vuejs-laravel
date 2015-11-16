@@ -1,0 +1,24 @@
+/**
+ * General styles.
+ *
+ */
+.error {
+  color: red;
+  font-weight: bold;
+}
+// .error
+
+/**
+ * Application styles.
+ *
+ */
+body {
+  header {
+    &.navbar {
+      margin-bottom: 5em;
+    }
+    // &.navbar
+  }
+  // header
+}
+// body
